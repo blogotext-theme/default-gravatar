@@ -1,7 +1,5 @@
-default-gravatar
+Default Gravatar
 ==================
-
-Theme Default Gravatar for Blogotext
 
 This is a default theme with gravater for Blogotext
 
