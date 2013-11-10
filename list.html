@@ -35,8 +35,8 @@
 <h1><a href="{racine_du_site}">{blog_nom}</a></h1>
 <h2>{blog_description}</h2>
 </header>
-<div id="wrapper">
-	<section id="sidebar">
+<main id="wrapper">
+	<aside id="sidebar">
 		<nav id="recherche">
 			<h3>Rechercher</h3>
 			{recherche}
@@ -81,7 +81,7 @@
 			</ul>
 			<hr/>
 		</nav>
-	</section>
+	</aside>
 
 	<section id="contenu">
 		{BOUCLE_posts}
@@ -98,7 +98,7 @@
 
 	<br style="clear:both;" />
 	{pagination}
-</div> <!-- einde #wrapper -->
+</main> <!-- einde #wrapper -->
 
 
 <footer><b>{blog_auteur}</b>, tous droits réservés – Publié avec <a href="http://lehollandaisvolant.net/blogotext/">BlogoText</a> – Thème par <a href="http://lehollandaisvolant.net/">Timo van Neerden</a></footer>
